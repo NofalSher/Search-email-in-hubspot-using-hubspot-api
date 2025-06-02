@@ -1,6 +1,6 @@
 # HubSpot Email Checker
 
-This script checks whether emails in an Excel sheet are present in your HubSpot CRM.
+This script checks whether emails are present in your HubSpot CRM.
 
 ## Setup
 

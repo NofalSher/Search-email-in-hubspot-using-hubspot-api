@@ -3,7 +3,7 @@ import pandas as pd
 import time
 from config import HUBSPOT_API_KEY, INPUT_FILE, OUTPUT_FILE, EMAIL_COLUMN
 
-# === HUBSPOT SETUP ===
+# === HUBSPOT API Setup ===
 HEADERS = {
     "Authorization": f"Bearer {HUBSPOT_API_KEY}",
     "Content-Type": "application/json"
