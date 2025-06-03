@@ -79,4 +79,4 @@ for idx, row in df.iterrows():
 output_df = pd.DataFrame(results)
 output_df.to_excel(OUTPUT_FILE, index=False)
 
-print(f"\nDone. Results saved to {OUTPUT_FILE}")
+print(f"\n Results saved to {OUTPUT_FILE}")
