@@ -51,7 +51,7 @@ def find_contact_by_email(email):
             continue
 
         else:
-            print(f"Error searching for email {email}: Status {response.status_code} - {response.text}")
+            print(f"Error finding for email {email}: Status {response.status_code} - {response.text}")
             return None
 
 # === READ INPUT FILE ===
